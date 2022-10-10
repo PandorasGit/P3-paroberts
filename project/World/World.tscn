@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Launcher/Launcher.tscn" type="PackedScene" id=1]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 100, 2, 100 )
+
+[node name="World" type="Spatial"]
+
+[node name="Ground" type="CSGMesh" parent="."]
+use_collision = true
+mesh = SubResource( 1 )
+
+[node name="Pivot" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.39399, 60.1346 )
+
+[node name="Camera" type="Camera" parent="Pivot"]
+
+[node name="Launcher" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 39.691 )
