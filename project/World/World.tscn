@@ -12,9 +12,9 @@ use_collision = true
 mesh = SubResource( 1 )
 
 [node name="Pivot" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.39399, 60.1346 )
+transform = Transform( -4.37114e-08, -0.224934, 0.974374, 0, 0.974374, 0.224934, -1, 9.83218e-09, -4.25912e-08, 19.8791, 9.48368, 38.2924 )
 
 [node name="Camera" type="Camera" parent="Pivot"]
 
 [node name="Launcher" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 39.691 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.62628, 39.691 )

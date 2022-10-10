@@ -3,6 +3,13 @@
 - Solution for Project 3
 - The tutorial repository for this project can be found [here](https://github.com/bsu-cs315/P3-tutorial-waroberts).
 
+
+## Features and Controls
+- Space to shoot
+- A and D to yaw or rotate along the Y-axis.
+- W and D to pitch or rotate along the X-axis.
+
+***
 ## Third Party Assets
 
 
