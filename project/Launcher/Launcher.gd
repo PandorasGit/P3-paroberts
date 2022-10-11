@@ -1,13 +1,13 @@
 extends Spatial
 
 
-
 var _has_launched := false
 var _impulse := 0.0
 var _angle_y := 0.0
 var _angle_x := 0.0
 var _rotation_speed := 10
 var _direction := Vector3(90,0,0)
+
 
 onready var _projectile := load("res://Projectile/Projectile.tscn")
 onready var _reload_timer := get_node("ReloadTimer")

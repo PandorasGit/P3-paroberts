@@ -28,7 +28,7 @@ Reflection yet to be written
 - [X] B-4: The <code>README.md</code> contains instructions for how to play the game or such instructions are incorporated into the game.
 - [ ] B-5: The project report is complete.
 - [X] B-6: The player can fire a projectile, controlling its angle and power.
-- [ ] B-7: There are one or more targets whose hitting is meaningful to the gameplay (e.g. points are earned, the player wins).
+- [X] B-7: There are one or more targets whose hitting is meaningful to the gameplay (e.g. points are earned, the player wins).
 - [ ] B-8: The project code complies with our style guides.
 - [ ] B-9: The game runs without errors or warnings.
 - [ ] A-1: The player experiences a complete loop: a menu or introduction; goal-directed gameplay; an ending.
