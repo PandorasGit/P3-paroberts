@@ -7,3 +7,7 @@ func fire(impulse: Vector3) -> void:
 
 func _on_VisibilityNotifier_screen_exited():
 	queue_free()
+
+
+func _on_DespawnTimer_timeout():
+	queue_free()

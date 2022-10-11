@@ -14,4 +14,9 @@ shape = SubResource( 1 )
 
 [node name="VisibilityNotifier" type="VisibilityNotifier" parent="."]
 
+[node name="DespawnTimer" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
 [connection signal="screen_exited" from="VisibilityNotifier" to="." method="_on_VisibilityNotifier_screen_exited"]
+[connection signal="timeout" from="DespawnTimer" to="." method="_on_DespawnTimer_timeout"]
