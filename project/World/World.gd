@@ -12,6 +12,7 @@ var _winning_score := 1
 onready var _main_menu := load("res://MainMenu/MainMenu.tscn")
 onready var _hud := find_node("HUD")
 onready var _target := find_node("Target")
+onready var _score_sound := find_node("ScoreSound")
 
 
 func _ready() -> void:
@@ -26,6 +27,7 @@ func _ready() -> void:
 
 
 func _on_target_killed() -> void:
+	_score_sound.play()
 	_score += 1
 	emit_signal("score_updated", _score)
 	if _score == _winning_score:

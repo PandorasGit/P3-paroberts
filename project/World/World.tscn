@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Launcher/Launcher.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Target/Target.tscn" type="PackedScene" id=2]
 [ext_resource path="res://HUD/HUD.tscn" type="PackedScene" id=3]
 [ext_resource path="res://World/World.gd" type="Script" id=4]
+[ext_resource path="res://World/score.wav" type="AudioStream" id=5]
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 50, 2, 75 )
@@ -29,3 +30,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 39.691 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.710283, 2.97171, -9.95106 )
 
 [node name="HUD" parent="." instance=ExtResource( 3 )]
+
+[node name="ScoreSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
