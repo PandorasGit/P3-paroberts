@@ -10,6 +10,7 @@
 - W and D to pitch or rotate along the X-axis.
 - Z and X to adjust power.
 - Knock off objects to earn points.
+- Knock off all objects to win!
 
 ***
 ## Third Party Assets
@@ -31,7 +32,7 @@ Reflection yet to be written
 - [X] B-7: There are one or more targets whose hitting is meaningful to the gameplay (e.g. points are earned, the player wins).
 - [ ] B-8: The project code complies with our style guides.
 - [ ] B-9: The game runs without errors or warnings.
-- [ ] A-1: The player experiences a complete loop: a menu or introduction; goal-directed gameplay; an ending.
+- [X] A-1: The player experiences a complete loop: a menu or introduction; goal-directed gameplay; an ending.
 - [ ] A-2: Music and sound effects are meaningfully incorporated.
 
 There for this work merits a .

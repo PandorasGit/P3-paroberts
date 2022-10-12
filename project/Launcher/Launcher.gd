@@ -81,4 +81,3 @@ func _launch(new_projectile: RigidBody) -> void:
 
 func _on_ReloadTimer_timeout() -> void:
 	_has_launched = false
-

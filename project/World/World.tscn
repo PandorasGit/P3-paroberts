@@ -6,12 +6,13 @@
 [ext_resource path="res://World/World.gd" type="Script" id=4]
 
 [sub_resource type="CubeMesh" id=1]
-size = Vector3( 50, 2, 100 )
+size = Vector3( 50, 2, 75 )
 
 [node name="World" type="Spatial"]
 script = ExtResource( 4 )
 
 [node name="Ground" type="CSGMesh" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15.4996 )
 use_collision = true
 mesh = SubResource( 1 )
 
