@@ -1,9 +1,7 @@
 
 # Project 3 Birds That Feel? 
 - Solution for Project 3
-- The tutorial repository for this project can be found [here](https://github.com/bsu-cs315/P3-tutorial-waroberts).
 - Made using Godot 3.5, sfbx, and Audacity.
-- Play [here](https://bsu-cs315.github.io/P3-waroberts/).
 
 
 ## Features and Controls
